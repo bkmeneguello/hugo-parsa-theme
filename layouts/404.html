@@ -1,0 +1,12 @@
+{{ define "main"}}
+<section class="section">
+    <div class="container">
+        <h2 class="mb-100 title-border-lg">Não encontrou o que queria? Tente uma dessas páginas!</h3>
+        <div class="row masonry-container">
+            {{ range .Site.RegularPages }}
+            {{ partial "masonry-element.html" . }}
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{ end }}
