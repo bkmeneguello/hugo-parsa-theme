@@ -1,4 +1,3 @@
 [module]
   [[module.imports]]
     path = "github.com/bkmeneguello/hugo-creative-commons-component"
-    disable = false
